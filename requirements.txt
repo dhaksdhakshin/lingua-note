@@ -1,0 +1,6 @@
+streamlit
+sounddevice
+openai-whisper
+reportlab
+pydub
+numpy
