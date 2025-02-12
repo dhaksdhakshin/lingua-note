@@ -22,4 +22,15 @@ LinguaNote is a real-time voice-to-text application that converts spoken words i
 ### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/dhaksdhakshin/lingua-note.git
+
+LinguaNote/
+│── app.py                  # Main Streamlit application
+│── audio_recorder.py        # Handles live audio input
+│── transcription.py         # Speech-to-text processing logic
+│── export.py                # PDF & file export functions
+│── utils.py                 # Helper functions
+│── requirements.txt         # Required dependencies
+│── README.md                # Project documentation
+│── assets/                  # Logo and design assets
+│── venv/                    # Virtual environment (ignored in Git)
 cd lingua-note
