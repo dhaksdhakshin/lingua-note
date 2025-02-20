@@ -13,7 +13,7 @@ LinguaNote is a real-time voice-to-text application that converts spoken words i
 ✅ **Enhanced UX** – Auto-stops on silence detection, highlights spoken words, and allows caption preview.  
 ✅ **Export Formats** – Save transcripts in `.pdf`, `.txt`, `.docx`, and `.srt` for flexible use.  
 ✅ **Timestamp Customization** – Users can modify timestamp intervals per word or per sentence.  
-✅ **Error Handling** – Detects low-quality audio and provides grammar correction options.
+✅ **Error Handling** – Detects low-quality audio and provides grammar correction options..
 
 ---
 
