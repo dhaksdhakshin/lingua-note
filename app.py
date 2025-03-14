@@ -12,7 +12,7 @@ def main():
     
     # Audio Input Options 
     audio_file = st.file_uploader("Upload Audio File", type=["wav", "mp3", "ogg"])
-    if audio_file:
+    if audio_file: 
         captions = process_audio_file(audio_file)
         st.write("Transcription in Progress...")
 
