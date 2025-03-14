@@ -4,7 +4,7 @@ from pdf_generator import generate_pdf
 from utils import process_audio_file
 
 # Main Streamlit app
-def main():
+def main(): 
     st.title("Live Speech-to-Text with PDF Export")
     
     st.sidebar.title("Settings") 
