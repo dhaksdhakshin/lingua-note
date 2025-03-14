@@ -1,6 +1,6 @@
 import streamlit as st
 from audio_recorder import start_recognition, stop_recognition
-from pdf_generator import generate_pdf
+from pdf_generator import generate_pdf 
 from utils import process_audio_file
 
 # Main Streamlit app
