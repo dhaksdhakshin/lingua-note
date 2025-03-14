@@ -10,7 +10,7 @@ def main():
     st.sidebar.title("Settings") 
     st.sidebar.write("Configure your transcription options.") 
     
-    # Audio Input Options
+    # Audio Input Options 
     audio_file = st.file_uploader("Upload Audio File", type=["wav", "mp3", "ogg"])
     if audio_file:
         captions = process_audio_file(audio_file)
