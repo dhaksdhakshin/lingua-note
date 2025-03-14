@@ -20,7 +20,7 @@ def main():
     if st.button("Start Recording"):      
         st.write("Recording started...")
         captions = start_recognition()
-
+ 
     # Display live captions with timestamps
     if 'captions' in locals():
         st.text_area("Live Captions", value="\n".join(captions), height=300)
