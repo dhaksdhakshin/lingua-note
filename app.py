@@ -8,7 +8,7 @@ def main():
     st.title("Live Speech-to-Text with PDF Export")
     
     st.sidebar.title("Settings") 
-    st.sidebar.write("Configure your transcription options.") 
+    st.sidebar.write("Configure your transcription options.")  
     
     # Audio Input Options 
     audio_file = st.file_uploader("Upload Audio File", type=["wav", "mp3", "ogg"])
