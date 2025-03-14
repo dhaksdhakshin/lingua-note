@@ -4,3 +4,4 @@ openai-whisper
 reportlab
 pydub
 numpy
+ 
