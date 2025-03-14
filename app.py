@@ -19,7 +19,7 @@ def main():
     # Real-time Recording Option
     if st.button("Start Recording"):      
         st.write("Recording started...")
-        captions = start_recognition()
+        captions = start_recognition() 
  
     # Display live captions with timestamps
     if 'captions' in locals():
