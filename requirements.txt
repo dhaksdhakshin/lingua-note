@@ -3,6 +3,6 @@ sounddevice
 openai-whisper
 reportlab
 pydub
-numpy
+numpy 
  
  
