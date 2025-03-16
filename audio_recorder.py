@@ -11,7 +11,7 @@ model = whisper.load_model("base")
 def record_audio(duration=10, fs=16000):
     # Record audio for a specific duration
     recording = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='float32')
-    sd.wait()  # Wait until recording is finished
+    sd.wait()  # Wait until recording is finished 
     return recording
 
 # Function to save audio to a temporary file
