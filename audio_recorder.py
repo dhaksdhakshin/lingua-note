@@ -2,7 +2,7 @@ import sounddevice as sd
 import numpy as np
 import whisper  # Corrected import for Whisper model
 import tempfile  
-import wave 
+import wave  
 
 # Initialize the Whisper model for speech-to-text 
 model = whisper.load_model("base")   
