@@ -4,7 +4,7 @@ import whisper  # Corrected import for Whisper model
 import tempfile
 import wave
 
-# Initialize the Whisper model for speech-to-text
+# Initialize the Whisper model for speech-to-text 
 model = whisper.load_model("base") 
 
 # Function to record audio
