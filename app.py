@@ -16,7 +16,7 @@ def main():
         captions = process_audio_file(audio_file)
         st.write("Transcription in Progress...")
 
-    # Real-time Recording Option
+    # Real-time Recording Option 
     if st.button("Start Recording"):      
         st.write("Recording started...")
         captions = start_recognition() 
