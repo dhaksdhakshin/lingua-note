@@ -8,7 +8,7 @@ LinguaNote is a real-time voice-to-text application that converts spoken words i
 
 ✅ **Real-Time Speech-to-Text** – Uses OpenAI Whisper, Google Speech-to-Text, or Azure for multilingual voice recognition.  
 ✅ **Live Caption Display** – Shows real-time transcriptions with customizable fonts, colors, and timestamps.  
-✅ **Audio Input Options** – Supports microphone input and pre-recorded audio files.  
+✅ **Audio Input Options** – Supports microphone input and pre-recorded audio files.   
 ✅ **Structured PDF Export** – Downloads transcripts with timestamps, metadata, and formatted text for readability.  
 ✅ **Enhanced UX** – Auto-stops on silence detection, highlights spoken words, and allows caption preview.  
 ✅ **Export Formats** – Save transcripts in `.pdf`, `.txt`, `.docx`, and `.srt` for flexible use.  
