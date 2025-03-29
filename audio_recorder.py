@@ -20,7 +20,7 @@ def save_audio(recording, fs=16000):
     with wave.open(temp_file.name, 'wb') as wf:
         wf.setnchannels(1)
         wf.setsampwidth(2)  # 2 bytes per sample 
-        wf.setframerate(fs)
+        wf.setframerate(fs) 
         wf.writeframes(np.array(recording, dtype=np.int16).tobytes())
     return temp_file.name
  
