@@ -26,7 +26,7 @@ def save_audio(recording, fs=16000):
  
 # Function to start live speech recognition
 def start_recognition():
-    st.write("Recording...")
+    st.write("Recording...") 
     audio = record_audio(duration=10)  # Record for 10 seconds
     audio_file = save_audio(audio)
     captions = transcribe_audio(audio_file)
