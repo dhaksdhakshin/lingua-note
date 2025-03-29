@@ -23,7 +23,7 @@ def save_audio(recording, fs=16000):
         wf.setframerate(fs)
         wf.writeframes(np.array(recording, dtype=np.int16).tobytes())
     return temp_file.name
-
+ 
 # Function to start live speech recognition
 def start_recognition():
     st.write("Recording...")
