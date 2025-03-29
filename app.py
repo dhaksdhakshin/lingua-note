@@ -5,7 +5,7 @@ from utils import process_audio_file
  
 # Main Streamlit app  
 def main():  
-    st.title("Live Speech-to-Text with PDF Export") 
+    st.title("Live Speech-to-Text with PDF Export")   
       
     st.sidebar.title("Settings")  
     st.sidebar.write("Configure your transcription options.")  
