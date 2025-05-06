@@ -14,7 +14,7 @@ def record_audio(duration=10, fs=16000):
     sd.wait()  # Wait until recording is finished 
     return recording
 
-# Function to save audio to a temporary file 
+# Function to save audio to a temporary file  
 def save_audio(recording, fs=16000):
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".wav") 
     with wave.open(temp_file.name, 'wb') as wf:
