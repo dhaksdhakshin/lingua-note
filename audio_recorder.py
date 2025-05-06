@@ -13,7 +13,7 @@ def record_audio(duration=10, fs=16000):
     recording = sd.rec(int(duration * fs), samplerate=fs, channels=1, dtype='float32')
     sd.wait()  # Wait until recording is finished 
     return recording
-
+ 
 # Function to save audio to a temporary file  
 def save_audio(recording, fs=16000):
     temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".wav") 
