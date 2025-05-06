@@ -6,7 +6,7 @@ import wave
 
 # Initialize the Whisper model for speech-to-text  
 model = whisper.load_model("base")    
- 
+  
 # Function to record audio 
 def record_audio(duration=10, fs=16000):
     # Record audio for a specific duration  
